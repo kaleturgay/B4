@@ -1,11 +1,11 @@
 # B4
-Build your own Beagle Bone Black.
+Build your Beagle Bone Black.
 
-1. Build your own u-boot
-2. Build your own kernel
-3. Build your own busybox
+1. Build u-boot
+2. Build kernel
+3. Build busybox
 
-**1. Build your own u-boot**
+**1. Build u-boot**
 
 1.1  Get the latest toolchain for cross-compiling.
 
@@ -40,7 +40,7 @@ tools/mkimage
 u-boot.img
 ```
 
-**2. Build your own kernel**
+**2. Build kernel**
 
 2.1  Get the official kernel from Beagle Bone repository.
 
