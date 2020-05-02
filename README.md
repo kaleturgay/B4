@@ -5,7 +5,7 @@ Build your own Beagle Bone Black.
 2. Build your own kernel
 3. Build your own busybox
 
-**1. Build your own u-boot.**
+**1. Build your own u-boot**
 
 1.1  Get the latest toolchain for cross-compiling.
 
@@ -32,7 +32,7 @@ make distclean
 make am335x_evm_config
 make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf-
 ```
-1.5  Save the outputs.
+1.5  Backup the outputs.
 ```
 MLO
 tools/mkimage
