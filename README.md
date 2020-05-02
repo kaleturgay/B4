@@ -25,7 +25,7 @@ chrpath socat libsdl1.2-dev xterm picocom ncurses-dev lzop git libncurses5-dev p
 git clone https://gitlab.denx.de/u-boot/u-boot.git
 ```
 
-1.4  Configure .config file for Black Bone Black (am335x) and compile.
+1.4  Configure .config file for Beagle Bone Black (am335x) and compile.
 
 ```
 make distclean
