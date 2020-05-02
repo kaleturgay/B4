@@ -32,7 +32,7 @@ make distclean
 make am335x_evm_config
 make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf-
 ```
-1.5  Save outputs.
+1.5  Save the outputs.
 ```
 MLO
 tools/mkimage
