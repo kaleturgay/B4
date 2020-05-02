@@ -28,4 +28,11 @@ make distclean
 make am335x_evm_config
 make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf-
 ```
+1.5  Save outputs.
+```
+MLO
+tools/mkimage
+u-boot.img
+```
+
 
