@@ -1,6 +1,10 @@
 # B4
 Build your own Black Bone Black.
 
+1. Build your own u-boot
+2. Build your own kernel
+3. Build your own busybox
+
 **1. Build your own u-boot.**
 
 1.1  Get the latest toolchain for cross-compiling.
