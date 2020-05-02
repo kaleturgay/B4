@@ -1,5 +1,5 @@
 # B4
-Build your own Black Bone Black.
+Build your own Beagle Bone Black.
 
 1. Build your own u-boot
 2. Build your own kernel
