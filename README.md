@@ -8,7 +8,7 @@ Build your own Black Bone Black.
 https://releases.linaro.org/components/toolchain/binaries/latest-7/arm-linux-gnueabihf/
 
 
-1.2  Install packages for dependencies before compiling.
+1.2  Install packages for dependencies before compiling (Debian/Ubuntu).
 
 ```
 sudo apt-get install gawk wget git diffstat unzip texinfo gcc-multilib build-essential \ 
