@@ -15,7 +15,7 @@ https://releases.linaro.org/components/toolchain/binaries/latest-7/arm-linux-gnu
 1.2  Install packages for dependencies before compiling (Debian/Ubuntu).
 
 ```
-sudo apt-get install gawk wget git diffstat unzip texinfo gcc-multilib build-essential \ 
+sudo apt-get install u-boot-tools gawk wget git diffstat unzip texinfo gcc-multilib build-essential \ 
 chrpath socat libsdl1.2-dev xterm picocom ncurses-dev lzop git libncurses5-dev perl
 ```
 
