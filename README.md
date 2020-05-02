@@ -23,8 +23,8 @@ git clone https://gitlab.denx.de/u-boot/u-boot.git
 *A4. Configure .config file for Black Bone Black (am335x) and compile.*
 
 ```
-make distclean \
-make am335x_evm_config \
-ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- make\
+make distclean
+make am335x_evm_config
+ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- make
 ```
 
