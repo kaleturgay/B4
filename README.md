@@ -32,11 +32,22 @@ make distclean
 make am335x_evm_config
 make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf-
 ```
+
 1.5  Backup the outputs.
 ```
 MLO
 tools/mkimage
 u-boot.img
 ```
+
+**2. Build your own kernel**
+
+2.1  Get the official kernel from Beagle Bone repository.
+
+```
+git clone https://github.com/beagleboard/linux.git
+```
+
+
 
 
