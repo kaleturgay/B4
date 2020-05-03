@@ -7,16 +7,17 @@ Build your Beagle Bone Black.
 
 **1. Build u-boot**
 
-1.1  Get the latest toolchain for cross-compiling.
+1.1  Get the latest toolchain for cross-compiling (Debian/Ubuntu).
 
 ```
 sudo apt-get install gcc-arm-linux-gnueabi
 ```
 
-or
+or download the proper package in below
 
+```
 https://releases.linaro.org/components/toolchain/binaries/latest-7/arm-linux-gnueabihf/
-
+```
 
 1.2  Install packages for dependencies before compiling (Debian/Ubuntu).
 
