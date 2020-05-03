@@ -46,7 +46,7 @@ u-boot.img
 
 **2. Build kernel**
 
-2.1  Get the official kernel from TI repository.
+2.1  Get the kernel from TI repository.
 
 ```
 git clone git://git.ti.com/ti-linux-kernel/ti-linux-kernel.git linux
