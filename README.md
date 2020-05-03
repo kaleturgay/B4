@@ -3,7 +3,7 @@ Build your Beagle Bone Black.
 
 1. Build u-boot
 2. Build kernel
-3. Build busybox
+3. Build rootfs
 
 **1. Build u-boot**
 
@@ -49,7 +49,8 @@ u-boot.img
 2.1  Get the official kernel from Beagle Bone repository.
 
 ```
-git clone https://github.com/beagleboard/linux.git
+git clone git://git.ti.com/ti-linux-kernel/ti-linux-kernel.git linux
+cd linux/
 ```
 
 **References**
