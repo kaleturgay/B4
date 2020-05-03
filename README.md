@@ -10,13 +10,13 @@ Build your Beagle Bone Black.
 1.1  Get the latest toolchain for cross-compiling (Debian/Ubuntu).
 
 ```
-sudo apt-get install gcc-arm-linux-gnueabihf
+sudo apt-get install gcc-arm-linux-gnueabi
 ```
 
 or download the proper package in below
 
 ```
-https://releases.linaro.org/components/toolchain/binaries/latest-7/arm-linux-gnueabihf/
+https://releases.linaro.org/components/toolchain/binaries/latest-7/arm-linux-gnueabi/
 ```
 
 1.2  Install packages for dependencies before compiling (Debian/Ubuntu).
@@ -37,7 +37,7 @@ git clone https://gitlab.denx.de/u-boot/u-boot.git
 ```
 make distclean
 make am335x_evm_config
-make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf-
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-
 ```
 
 1.5  Backup the outputs.
