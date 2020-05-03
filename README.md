@@ -57,7 +57,7 @@ git clone https://github.com/beagleboard/linux.git
 2. TI SDK documentation - http://software-dl.ti.com/processor-sdk-linux/esd/docs/latest/linux/index.html
 3. itdev building Beagle Bone - https://www.itdev.co.uk/blog/building-linux-kernel-cross-compiling-beaglebone-black
 4. UcanLinux (Turkish) - http://www.ucanlinux.com/eski-blog-yaz%C4%B1lar%C4%B1
-5. https://linux-readdocs.readthedocs.io/en/latest/index.html
+5. Mehmet Alınbay Gömülü Linux Notları (Turkish) https://linux-readdocs.readthedocs.io/en/latest/index.html
 
 
 
