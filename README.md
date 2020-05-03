@@ -10,12 +10,6 @@ Build your Beagle Bone Black.
 1.1  Get the latest toolchain for cross-compiling (Debian/Ubuntu).
 
 ```
-sudo apt-get install gcc-arm-linux-gnueabi
-```
-
-or download the proper package in below
-
-```
 https://releases.linaro.org/components/toolchain/binaries/latest-7/arm-linux-gnueabi/
 ```
 
@@ -26,10 +20,13 @@ sudo apt-get install u-boot-tools gawk wget git diffstat unzip texinfo gcc-multi
 chrpath socat libsdl1.2-dev xterm picocom ncurses-dev lzop git libncurses5-dev perl
 ```
 
-1.3  Get the latest u-boot source code.
+1.3  Get the u-boot from TI repository
 
 ```
-git clone https://gitlab.denx.de/u-boot/u-boot.git
+git clone git://git.ti.com/ti-u-boot/ti-u-boot.git uboot
+cd uboot/
+git checkout ti-u-boot-2020.01
+git checkout -b MyBranchName
 ```
 
 1.4  Configure .config file for Beagle Bone Black (am335x) and compile.
@@ -37,7 +34,7 @@ git clone https://gitlab.denx.de/u-boot/u-boot.git
 ```
 make distclean
 make am335x_evm_config
-make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi-
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf-
 ```
 
 1.5  Backup the outputs.
