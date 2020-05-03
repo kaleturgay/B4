@@ -10,7 +10,7 @@ Build your Beagle Bone Black.
 1.1  Get the latest toolchain for cross-compiling (Debian/Ubuntu).
 
 ```
-https://releases.linaro.org/components/toolchain/binaries/latest-7/arm-linux-gnueabi/
+https://releases.linaro.org/components/toolchain/binaries/latest-7/arm-linux-gnueabihf/
 ```
 
 1.2  Install packages for dependencies before compiling (Debian/Ubuntu).
