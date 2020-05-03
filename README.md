@@ -9,6 +9,12 @@ Build your Beagle Bone Black.
 
 1.1  Get the latest toolchain for cross-compiling.
 
+```
+sudo apt-get install gcc-arm-linux-gnueabi
+```
+
+or
+
 https://releases.linaro.org/components/toolchain/binaries/latest-7/arm-linux-gnueabihf/
 
 
