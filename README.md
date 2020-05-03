@@ -10,7 +10,7 @@ Build your Beagle Bone Black.
 1.1  Get the latest toolchain for cross-compiling (Debian/Ubuntu).
 
 ```
-sudo apt-get install gcc-arm-linux-gnueabi
+sudo apt-get install gcc-arm-linux-gnueabihf
 ```
 
 or download the proper package in below
