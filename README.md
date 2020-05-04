@@ -51,6 +51,14 @@ u-boot.img
 ```
 git clone git://git.ti.com/ti-linux-kernel/ti-linux-kernel.git linux
 cd linux/
+git checkout ti-linux-4.9.y 
+git checkout -b MyBranchName
+```
+2.2  Configure for am335x (BBB) and compile kernel.
+
+```
+make ARCH=arm omap2plus_defconfig
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf-
 ```
 
 **References**
