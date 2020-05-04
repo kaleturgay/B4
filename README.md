@@ -54,11 +54,17 @@ cd linux/
 git checkout ti-linux-4.9.y 
 git checkout -b MyBranchName
 ```
-2.2  Configure for am335x (BBB) and compile kernel.
+2.2  Configure config file for Beagle Bone Black (am335x) and compile kernel.
 
 ```
 make ARCH=arm omap2plus_defconfig
 make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf-
+```
+2.3  Backup the outputs.
+
+```
+arch/arm/boot/zImage
+arch/arm/boot/dts/am335x-boneblack.dtb
 ```
 
 **References**
