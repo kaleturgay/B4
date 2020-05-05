@@ -67,6 +67,28 @@ arch/arm/boot/zImage
 arch/arm/boot/dts/am335x-boneblack.dtb
 ```
 
+**3.  Build rootfs (with buildroot)**
+
+3.1  Get the buildroot source code from repository.
+
+```
+git clone git://git.busybox.net/buildroot
+cd buildroot/
+git checkout -b 2020.02
+```
+3.2  Configure buildroot for BBB and compile.
+
+```
+make beaglebone_defconfig
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf-
+```
+
+3.3  Backup the outputs.
+
+```
+output/images/rootfs.tar
+```
+
 **References**
 1. TI Beagle Bone - http://www.ti.com/tool/PROCESSOR-SDK-AM335X
 2. TI SDK documentation - http://software-dl.ti.com/processor-sdk-linux/esd/docs/latest/linux/index.html
