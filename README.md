@@ -4,7 +4,7 @@ Build your Beagle Bone Black.
 1. Build u-boot
 2. Build kernel
 3. Build rootfs
-4. Create mmc card
+4. Create MMC
 5. Update image
 
 **1. Build u-boot**
@@ -31,7 +31,7 @@ git checkout ti-u-boot-2020.01
 git checkout -b MyBranchName
 ```
 
-1.4  Configure .config file for Beagle Bone Black (am335x) and compile.
+1.4  Configure .config file for Beagle Bone Black (am335x) and build.
 
 ```
 make distclean
@@ -56,7 +56,7 @@ cd linux/
 git checkout ti-linux-4.9.y 
 git checkout -b MyBranchName
 ```
-2.2  Configure config file for Beagle Bone Black (am335x) and compile kernel.
+2.2  Configure config file for Beagle Bone Black (am335x) and build kernel.
 
 ```
 make ARCH=arm omap2plus_defconfig
@@ -78,20 +78,25 @@ git clone git://git.busybox.net/buildroot
 cd buildroot/
 git checkout -b 2020.02
 ```
-3.2  Configure buildroot for BBB and compile.
+3.2  Configure buildroot for BBB and build.
 
 ```
 make beaglebone_defconfig
 make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf-
 ```
 
-3.3  Backup the outputs.
+3.3  Backup the output.
 
 ```
 output/images/rootfs.tar
 ```
 
 Using buildroot alone generates all the required items such as MLO, u-boot.img, zImage, am335x-boneblack.dtb and rootfs.tar to start up BBB. Hereby I use the output rootfs.tar from buildroot, other items are provided by kernel and u-boot build.
+
+4.  Create MMC
+
+5.  Update image
+
 
 **References**
 1. TI Beagle Bone - http://www.ti.com/tool/PROCESSOR-SDK-AM335X
