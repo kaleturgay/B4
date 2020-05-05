@@ -4,6 +4,8 @@ Build your Beagle Bone Black.
 1. Build u-boot
 2. Build kernel
 3. Build rootfs
+4. Create mmc card
+5. Update image
 
 **1. Build u-boot**
 
