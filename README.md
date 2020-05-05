@@ -89,7 +89,7 @@ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf-
 output/images/rootfs.tar
 ```
 
-Using buildroot alone generates all the required items such as MLO, u-boot.img, zImage, am335x-boneblack.dtb and rootfs.tar to start up BBB. As we do, you may apply the items separately. Hereby we use output rootfs.tar from buildroot, other items are provided by kernel and u-boot build.
+Using buildroot alone generates all the required items such as MLO, u-boot.img, zImage, am335x-boneblack.dtb and rootfs.tar to start up BBB. Hereby I use the output rootfs.tar from buildroot, other items are provided by kernel and u-boot build.
 
 **References**
 1. TI Beagle Bone - http://www.ti.com/tool/PROCESSOR-SDK-AM335X
