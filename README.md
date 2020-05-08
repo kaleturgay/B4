@@ -102,8 +102,10 @@ Using buildroot alone generates all the required items such as MLO, u-boot.img, 
 1. TI Beagle Bone - http://www.ti.com/tool/PROCESSOR-SDK-AM335X
 2. TI SDK documentation - http://software-dl.ti.com/processor-sdk-linux/esd/docs/latest/linux/index.html
 3. itdev building Beagle Bone - https://www.itdev.co.uk/blog/building-linux-kernel-cross-compiling-beaglebone-black
-4. UcanLinux (Turkish) - http://www.ucanlinux.com/eski-blog-yaz%C4%B1lar%C4%B1
-5. Mehmet Alınbay Gömülü Linux Notları (Turkish) https://linux-readdocs.readthedocs.io/en/latest/index.html
+4. Derek Molloy - http://derekmolloy.ie/
+5. UcanLinux (Turkish) - http://www.ucanlinux.com/eski-blog-yaz%C4%B1lar%C4%B1
+6. Mehmet Alınbay Gömülü Linux Notları (Turkish) https://linux-readdocs.readthedocs.io/en/latest/index.html
+7. Murat Demirten (Turkish) - https://demirten.gitbooks.io/gomulu-linux/
 
 
 
